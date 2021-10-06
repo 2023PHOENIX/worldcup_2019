@@ -1,0 +1,20 @@
+{
+  "name": "world-cup-2019",
+  "version": "1.0.0",
+  "description": "world cup data scrapping from espn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "jsdom": "^17.0.0",
+    "minimist": "^1.2.5",
+    "pdf-lib": "^1.16.0"
+  },
+  "devDependencies": {
+    "excel4node": "^1.7.2"
+  }
+}
