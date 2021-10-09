@@ -25,7 +25,7 @@ let MatchesInfo = []
 
 let ResponsePromise = axios.get(args.source);
 
-ResponsePromise.then(function(response){
+ResponsePromise.then(function(response){    
         let html = response.data;
         // console.log(html);
         let dom = new jsdom.JSDOM(html);
@@ -68,5 +68,3 @@ ResponsePromise.then(function(response){
 }).catch(function(err){
     console.log(err);
 });
-
-console.log(MatchesInfo);
